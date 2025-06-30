@@ -110,7 +110,7 @@ stopwatch-app/
 - `L` records laps, `C` resets.
 
 ### **Web Version**
-![Web Demo](https://i.imgur.com/9Xv7xT3.gif) *(Example GIF)*  
+file:///C:/Users/user/Pictures/Screenshots/Screenshot%202025-06-30%20184419.png *(Example GIF)*  
 - Click buttons to control.
 - Lap times appear below.
 
