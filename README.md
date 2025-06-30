@@ -138,4 +138,4 @@ Now you have **two versions** of the stopwatch:
 1. **For terminal users** (`MainApp.py`)
 2. **For web users** (`WebApp.py`)
 
-Would you like me to add **more features** like sound alerts or a countdown timer? 🚀
+file:///C:/Users/user/Pictures/Screenshots/Screenshot%202025-06-30%20184403.png
