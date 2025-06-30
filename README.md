@@ -20,6 +20,7 @@
 This is a **Python-based Stopwatch** with two versions:
 1. **Command Line Interface (CLI)** – Runs in terminal (`MainApp.py`).
 2. **Web Browser Interface** – Runs on Flask (`WebApp.py`).
+![Screenshot 2025-06-30 184419](https://github.com/user-attachments/assets/c93f42f0-53f5-43d4-80c2-fcf5be879428)
 
 The stopwatch supports:
 - **Start, Pause, Resume, Reset**
