@@ -139,3 +139,6 @@ Now you have **two versions** of the stopwatch:
 2. **For web users** (`WebApp.py`)
 
 file:///C:/Users/user/Pictures/Screenshots/Screenshot%202025-06-30%20184403.png
+
+
+file:///C:/Users/user/Pictures/Screenshots/Screenshot%202025-06-30%20184419.png
