@@ -102,21 +102,9 @@ stopwatch-app/
   pip install flask
   ```
 
----
 
-## **🎮 Usage Instructions**
-### **Command Line Version**
-![CLI Demo](https://i.imgur.com/JQ8Z5lW.gif) *(Example GIF)*  
-- Press `S` to start, `P` to pause.
-- `L` records laps, `C` resets.
 
-### **Web Version**
-[Screenshot 2025-06-30 184419](https://github.com/user-attachments/assets/ed9af70b-c570-40d8-bf06-6675b68ab06d)
-. *(Example GIF)*  
-- Click buttons to control.
-- Lap times appear below!
 
----
 
 ## **🔮 Future Improvements**
 - [ ] **Save lap history** (CSV/JSON)
