@@ -110,9 +110,10 @@ stopwatch-app/
 - `L` records laps, `C` resets.
 
 ### **Web Version**
-file:///C:/Users/user/Pictures/Screenshots/Screenshot%202025-06-30%20184419.png *(Example GIF)*  
+[Screenshot 2025-06-30 184419](https://github.com/user-attachments/assets/ed9af70b-c570-40d8-bf06-6675b68ab06d)
+. *(Example GIF)*  
 - Click buttons to control.
-- Lap times appear below.
+- Lap times appear below!
 
 ---
 
@@ -138,7 +139,3 @@ Now you have **two versions** of the stopwatch:
 1. **For terminal users** (`MainApp.py`)
 2. **For web users** (`WebApp.py`)
 
-file:///C:/Users/user/Pictures/Screenshots/Screenshot%202025-06-30%20184403.png
-
-
-file:///C:/Users/user/Pictures/Screenshots/Screenshot%202025-06-30%20184419.png
