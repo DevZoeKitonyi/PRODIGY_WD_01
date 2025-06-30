@@ -67,79 +67,7 @@ The stopwatch supports:
    pip install flask
    ```
 2. **Create `WebApp.py`:**
-   ```python
-   from flask import Flask, render_template_string, request
-   from TimeKeeper import TimeKeeper
 
-   app = Flask(__name__)
-   stopwatch = TimeKeeper()
-
-   HTML_TEMPLATE = """
-   <!DOCTYPE html>
-   <html>
-   <head>
-       <title>Python Stopwatch</title>
-       <style>
-           body { font-family: Arial; text-align: center; margin-top: 50px; }
-           .time { font-size: 3em; margin: 20px; }
-           button { padding: 10px 20px; font-size: 1em; margin: 5px; }
-       </style>
-   </head>
-   <body>
-       <h1>Python Stopwatch</h1>
-       <div class="time">{{ time }}</div>
-       <div>
-           <a href="/start"><button>Start</button></a>
-           <a href="/pause"><button>Pause</button></a>
-           <a href="/resume"><button>Resume</button></a>
-           <a href="/reset"><button>Reset</button></a>
-           <a href="/lap"><button>Lap</button></a>
-       </div>
-       {% if laps %}
-       <h3>Lap Times:</h3>
-       <ul>
-           {% for lap in laps %}
-           <li>{{ lap }}</li>
-           {% endfor %}
-       </ul>
-       {% endif %}
-   </body>
-   </html>
-   """
-
-   @app.route("/")
-   def home():
-       h, m, s = stopwatch.get_current_time()
-       time_str = f"{int(h):02d}:{int(m):02d}:{int(s):02d}"
-       return render_template_string(HTML_TEMPLATE, time=time_str, laps=stopwatch.laps)
-
-   @app.route("/start")
-   def start():
-       stopwatch.start()
-       return home()
-
-   @app.route("/pause")
-   def pause():
-       stopwatch.pause()
-       return home()
-
-   @app.route("/resume")
-   def resume():
-       stopwatch.resume()
-       return home()
-
-   @app.route("/reset")
-   def reset():
-       stopwatch.reset()
-       return home()
-
-   @app.route("/lap")
-   def lap():
-       stopwatch.lap()
-       return home()
-
-   if __name__ == "__main__":
-       app.run(debug=True)
    ```
 3. **Run the web app:**
    ```bash
